@@ -1,0 +1,85 @@
+body {
+    width: 100vh;
+    height: 100vh;
+    background: url("fondo_general.png") no-repeat center center fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: inline;
+}
+.nombre{
+    font-family: 'Cairo', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.img{
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+.div_titulo{
+    text-align: center;
+    position: relative;
+    left: 50%;
+}
+.titulo{
+    Font-family: Fira Sans;
+    Font-style: Bold;
+    Font-size: 48px;
+    Line-height: 84px;
+    Line-height: 100%;
+    Vertical-align: Center;
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td{
+    Font-family: 'Fira Sans', sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+td{
+    font-size: 20px;
+}
+th{
+    font-size: 22px;
+}
+#desaprobado{
+    color: #FD0E0E;
+}
+#aprobado{
+    color: #168A03;
+}
+.boton1{
+    text-align: center;
+    position: relative;
+    top: 70%;
+    left: 50%;
+}
+.boton2{
+    text-align: center;
+    position: relative;
+    top: 70%;
+    left: 80%;
+}
+#estilo_boton{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    width: 220px;
+    height: 38px;
+    background-color: rgba(160, 102, 203, 1);
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    border-color: white;
+    transition: box-shadow 0.2s ease-in-out;
+}
+#estilo_boton:hover{
+    box-shadow: 0 0 50px 50px rgba(209, 155, 249, 1) inset;
+}
