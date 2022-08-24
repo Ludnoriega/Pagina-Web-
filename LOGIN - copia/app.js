@@ -33,6 +33,9 @@ app.use(session({
     saveUninitialized:true
 }));
 
+//modulo de conexion de la bd
+const connection = require('./database/db');
+
 app.listen(3307, (req, res)=>{
     console.log("Server funcionando en http://localhost:3307");
 })
